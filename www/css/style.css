@@ -1,0 +1,29 @@
+.button {
+    display: inline-block;
+    padding: 8px 15px; /* パディングを小さく */
+    margin: 5px; /* マージンも調整 */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px; /* フォントサイズを小さく */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button-small {
+    padding: 4px 8px; /* より小さいボタン用に調整 */
+    font-size: 12px;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 6px; /* パディングを小さく */
+    margin: 4px 0; /* マージンも調整 */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
